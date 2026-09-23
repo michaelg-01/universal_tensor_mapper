@@ -178,11 +178,3 @@ cmake --build . --config Release
 ```
 Then copy the contents (exe and dlls) of the release folder to where you want to run it from. 
 
-
-## extract_roi.py
-
-Can be ran to extract a npy of a roi in dragonfly which can be used with the mapper. It also outputs the spacing and origin in the console which is needed.
-
-To get the roi name to add in to the script, drag the roi from right side of dragonfly to the dragonfly python console.
-
-Run it through the dragonfly python console with "exec(open(r'path-to-file\extract_roi.py').read())". Will output the npy to the save location and the spacing and origin to console.
